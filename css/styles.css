@@ -1,0 +1,119 @@
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+html {
+	background-color: whitesmoke;
+}
+.page {
+	width: 400px;
+	background-color: white ;
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.main-title {
+	color: hsl(229, 6%, 66%);
+	padding-top: 70px;
+	
+	text-align: center;
+	font-weight: 200;
+
+}
+span {
+	color: hsl(234, 12%, 34%);
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	
+	
+}
+
+.main-content {
+	color: hsl(229, 6%, 66%);
+	width: 80%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.card {
+	width: 80%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 200px;
+	box-shadow: 10px 5px 5px hsl(0, 0%, 98%);
+	padding-top: 15px;
+	padding-left: 20px;
+	border-radius: 2%;
+	
+}
+
+h3 {
+	color: hsl(234, 12%, 34%);
+}
+p {
+	color: hsl(229, 6%, 66%);
+}
+img {
+	position: relative;
+	left:220px;
+}
+
+.card-1 {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+.card-2 {
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+.card-3 {
+	
+border-top: 4px solid  hsl(34, 97%, 64%);
+}
+.card-4 {
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
